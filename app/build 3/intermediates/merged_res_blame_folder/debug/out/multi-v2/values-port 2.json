@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/usr/local/opt/gradle/libexec/caches/transforms-3/5ffaaa6a34a08bda7716606dd62ad236/transformed/jetified-mapbox-android-navigation-ui-0.42.6/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,112,173,238,296",
+                        "endColumns": "56,60,64,57,50",
+                        "endOffsets": "107,168,233,291,342"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "111,168,229,294,352",
+                        "endColumns": "56,60,64,57,50",
+                        "endOffsets": "163,224,289,347,398"
+                    }
+                },
+                {
+                    "source": "/usr/local/opt/gradle/libexec/caches/transforms-3/dcf664304d5f55750c5ac0c430deffeb/transformed/appcompat-1.4.1/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

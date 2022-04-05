@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator_layout_challenge_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    tools:context=".modules.activities.mapalarm.MapAlarmActivity">
+
+        <RelativeLayout
+            xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/linear_mapView_challenge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent">
+
+
+            <com.mapbox.mapboxsdk.maps.MapView
+                android:id="@+id/mapView_alarm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                mapbox:mapbox_cameraZoom="12" />
+
+            <include
+                android:id="@+id/action_bar"
+                layout="@layout/action_bar_refresh"
+                android:visibility="visible" />
+
+
+            <ImageView
+                android:id="@+id/imv_refresh_action_bar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/action_bar"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="8dp"
+                android:clickable="true"
+                android:padding="14dp"
+               />
+
+
+        </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+

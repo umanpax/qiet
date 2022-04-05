@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_marker"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imv_marker"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:padding="4dp"
+        android:gravity="left"
+        android:background="@drawable/rounded_full_marker_inactive"
+        android:tint="@color/colorWhite"
+        app:srcCompat="@drawable/ic_exit_arrow_left"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/layout_adress_marker"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:background="@color/colorQietPrimary"
+        android:layout_toRightOf="@+id/imv_marker"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/adress_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:textSize="13dp"
+            android:padding="8dp"
+            android:fontFamily="@font/gothamlight"
+            android:text="106 Route de brie"
+            android:textColor="@color/colorWhite"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:paddingRight="2dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

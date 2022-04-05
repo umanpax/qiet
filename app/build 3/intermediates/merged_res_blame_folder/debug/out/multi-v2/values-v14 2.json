@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "map": [
+                {
+                    "source": "/usr/local/opt/gradle/libexec/caches/transforms-3/065a24b00ab0bd34d7c9d8579d03b325/transformed/jetified-core-0.9.4.4/res/values-v14/values-v14.xml",
+                    "from": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,406",
+                        "endLines": "8,17",
+                        "endColumns": "10,10",
+                        "endOffsets": "401,803"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colortransparent">#00000000</color>
+    <color name="colorQietPrimary">#81E4A7</color>
+    <color name="colorGreenUman">#1abc9c</color><!-- couleur umanlife #1abc9c--><!-- couleur groupama #00654f-->
+    <color name="colorEtiquetteGreenChallengeCard">#1dbfc5</color><!-- couleur umanlife #1dbfc5--><!-- couleur groupama #a2c038-->
+    <color name="colorHeaderQuestionVaccineGreen">#79e5de</color>
+    <color name="colorFontAppIcon">#bfbfc7</color>
+    <color name = "colorLightBlack">#de292929</color>
+    <color name = "colorLightGrey">#de9d9db1</color>
+    <color name = "colorMoreGrey">#de69697b</color>
+    <color name="colorRedVaccine">#ff7f87</color>
+    <color name ="colorGreyDescRecoVaccine">#de292929</color>
+    <color name ="colorRose">#33ff7f87</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorUmanlife">#34495e</color>
+    <color name="colorGreenMeausreCards">#1bba9f</color>
+    <color name="colorBlueCardLogo">#5dade2</color>
+    <color name="colorBordeauULP">#b73766</color>
+    <color name="colorTabView">#3C3487</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorRedDark">#f26119</color>
+    <color name="colorSky">#C6DCEA</color>
+    <color name="colorGreyLightUmanlife">#f4f4f4</color>
+    <color name="colorBlue">#0000FF</color>
+    <color name="colorGreen">#61bf61</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteTransparent">#80FFFFFF</color>
+    <color name="colorYellow">#ffbb00</color>
+    <color name="colorBlueDark">#312a70</color>
+    <color name="colorGreyVeryLight">#e9e8e8</color>
+    <color name="colorBlueButton">#224B7C</color>
+    <color name="colorBackgroundTuto">#224B7C</color>
+    <color name="colorDarkGreyButton">#808080</color>
+    <color name="colorDarkGrey2Button">#80000000</color>
+
+    <color name="colorBlueButtonObjectives">#5c9ee1</color>
+    <color name="colorGreyButton">#a3a0a0</color>
+    <color name="colorBlueSlept">#0c0c54</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorPurple">#c473ec</color>
+    <color name="colorOrange">#ff9318</color>
+    <color name="colorBlueCard">#4CC2F1</color>
+    <color name="colorGreenCard">#2DA337</color>
+    <color name="colorYellowCard">#FFC000</color>
+
+
+    <color name="colorBarChartR">#2C2A89D2</color>
+    <color name="colorBarChartG">#862A8FD2</color>
+    <color name="colorBarChartB">#1A7BBC</color>
+    <color name="colorChartText">#9d9db1</color>
+    <color name="colorDark">#292938</color>
+    <color name="colorDarkGrey">#69697b</color>
+    <color name="colorBluedGrey">#9d9db1</color>
+    <color name="colorSilverGrey">#bfbfc7</color>
+    <color name="colorVerySilverGrey">#339d9db1</color>
+    <color name="colorPaleGray">#eeeff0</color>
+
+
+    <color name="colorBubbleBlue">#7bb1ff</color>
+    <color name="colorBubblePink">#ff72bc</color>
+    <color name="colorBubbleRed">#ff5f69</color>
+    <color name="colorBubbleTurquoise">#1dbfc5</color>
+    <color name="colorBubbleYellow">#d97c30</color>
+    <color name="colorBubbleGreen">#28d428</color>
+    <color name="colorBubblePurple">#8b9fff</color>
+
+    <color name="colorFilterBlue">#417bb1ff</color>
+    <color name="colorFilterPink">#41ff72bc</color>
+    <color name="colorFilterRed">#41ff5f69</color>
+    <color name="colorFilterTurquoise">#411dbfc5</color>
+    <color name="colorFilterYellow">#41d97c30</color>
+    <color name="colorFilterGreen">#4128d428</color>
+    <color name="colorFilterPurple">#418b9fff</color>
+
+    <color name="colorFilterGreenUman">#411abc9c</color>
+
+    <color name="colorLightGray">#f5f5f5</color>
+    <color name="circularObjectiveForeground">#1abc9c</color>
+    <color name="circularObjectiveBackground">#f2f7fffe</color>
+    <color name="tutoColorMask">#9c000000</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#C0C0C0</color>
+    <color name="bg_screen2">#C0C0C0</color>
+    <color name="bg_screen3">#C0C0C0</color>
+    <color name="bg_screen4">#C0C0C0</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">@color/colorBlueButtonObjectives</color>
+    <color name="dot_dark_screen2">@color/colorBlueButtonObjectives</color>
+    <color name="dot_dark_screen3">@color/colorBlueButtonObjectives</color>
+    <color name="dot_dark_screen4">@color/colorBlueButtonObjectives</color>
+    <color name="dot_dark_screen5">@color/colorBlueButtonObjectives</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#FFFFFF</color>
+    <color name="dot_light_screen2">#FFFFFF</color>
+    <color name="dot_light_screen3">#FFFFFF</color>
+    <color name="dot_light_screen4">#FFFFFF</color>
+    <color name="dot_light_screen5">#FFFFFF</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+
+    <color name="primaryColor">#00000000</color>
+    <color name="primaryColorDark">#4b5c93</color>
+    <color name="colorTextPrimary">#fff</color>
+    <color name="colorTextSecondary">#fff</color>
+    <color name="colorRedError">#ff6d6d</color>
+
+</resources>

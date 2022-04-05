@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/usr/local/opt/gradle/libexec/caches/transforms-3/065a24b00ab0bd34d7c9d8579d03b325/transformed/jetified-core-0.9.4.4/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,97",
+                        "endColumns": "41,51",
+                        "endOffsets": "92,144"
+                    }
+                }
+            ]
+        }
+    ]
+}

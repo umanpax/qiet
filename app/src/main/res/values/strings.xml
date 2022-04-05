@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Qiet</string>
+    <string name="logintitle">Me connecter à mon compte Qiet</string>
+    <string name="username">Pseudo</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="rememberMe">Se souvenir de moi</string>
+    <string name="login_me">Connexion</string>
+    <string name="error_connection">Verifiez vos identifiants ou votre connexion internet.</string>
+    <string name="fields_empty_login_pwd">Vous devez saisir votre login et votre mot de passe pour être identifié(e).</string>
+    <string name="logout">Déconnexion</string>
+    <string name="logout_message">Etes-vous sûr de vouloir vous déconnecter ?</string>
+    <string name="yes">Oui</string>
+    <string name="ok">Ok !</string>
+    <string name="no">Non</string>
+    <string name="msg_alarm_on">Alarme activée</string>
+    <string name="msg_alarm_off">Alarme désactivée</string>
+    <string name="hello_firstname">Bonjour %1$s</string>
+    <string name="text_long">Long : %1$s </string>
+    <string name="text_lat">Lat : %1$s </string>
+    <string name="text_distance">Distance : %1$sm</string>
+    <string name="mode_auto_msg">Quand le mode auto est activé vous ne poouvez pas activer ou désactiver votre alarme manuellement.</string>
+    <string name="mode_auto_enabled_error">Vous devez désactiver le mode auto pour pouvoir effectuer cette action.</string>
+</resources>

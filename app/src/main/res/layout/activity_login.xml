@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_constraint_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    android:background="@color/colorWhite">
+
+
+   <TextView
+       android:id="@+id/tv_connection"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/linear_connection"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="20dp"
+       android:fontFamily="@font/opensansbold"
+       android:gravity="center_horizontal"
+       android:text="@string/logintitle"
+       android:textColor="@color/colorQietPrimary"
+       android:textSize="16sp"
+       android:textStyle="normal"
+       app:layout_constraintBottom_toTopOf="@+id/linear_connection"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent" />
+
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:id="@+id/linear_connection"
+       android:layout_width="300sp"
+       android:layout_height="wrap_content"
+       android:alpha="0.90"
+       android:background="@drawable/layout_card_rounded"
+       android:orientation="vertical"
+       android:translationZ="10dp"
+       android:paddingBottom="10dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+
+      <LinearLayout
+          android:id="@+id/linear_user_email"
+          android:layout_width="250dp"
+          android:layout_height="45dp"
+          android:layout_marginTop="40dp"
+          android:background="@drawable/background_border_grey_light"
+          android:orientation="horizontal"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintRight_toRightOf="parent"
+          app:layout_constraintTop_toTopOf="parent">
+
+         <EditText
+             android:id="@+id/editText_user_login"
+             android:layout_width="wrap_content"
+             android:layout_height="45dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginBottom="1dp"
+             android:layout_weight="1"
+             android:background="@null"
+             android:hint="@string/email"
+             android:inputType="text"
+             android:maxLines="1"
+             android:nextFocusDown="@+id/editText_user_password_confirm"
+             android:singleLine="true"
+             android:textColor="@color/colorDarkGreyButton"
+             android:textColorHint="@color/colorGreyButton"
+             android:textSize="16sp"
+             android:textStyle="bold" />
+
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:id="@+id/linear_user_password"
+          android:layout_width="250dp"
+          android:layout_height="45dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginBottom="50dp"
+          android:background="@drawable/background_border_grey_light"
+          android:orientation="horizontal"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintRight_toRightOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/linear_user_email">
+
+
+         <EditText
+             android:id="@+id/editText_user_password"
+             android:layout_width="wrap_content"
+             android:layout_height="45dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginBottom="1dp"
+             android:layout_weight="1"
+             android:background="@null"
+             android:hint="@string/password"
+             android:inputType="textPassword"
+             android:maxLines="1"
+             android:nextFocusDown="@+id/button_get_an_account"
+             android:singleLine="true"
+             android:textColor="@color/colorDarkGreyButton"
+             android:textColorHint="@color/colorGreyButton"
+             android:textSize="16sp"
+             android:textStyle="bold" />
+
+
+         <ImageView
+             android:id="@+id/imageview_cross_user_password_register_connection"
+             android:layout_width="20dp"
+             android:layout_height="15dp"
+             android:layout_gravity="center_vertical"
+             android:layout_marginRight="10dp"
+             android:layout_toRightOf="@id/editText_user_password"
+             android:gravity="right"
+             android:visibility="gone" />
+
+      </LinearLayout>
+
+
+      <CheckBox
+          android:id="@+id/checkbox_remember_me"
+          android:layout_width="250dp"
+          android:layout_height="45dp"
+          android:nextFocusDown="@+id/button_get_an_account"
+          android:text="@string/rememberMe"
+          app:buttonTint="@color/colorQietPrimary"
+          app:layout_constraintTop_toBottomOf="@+id/linear_user_password"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintRight_toRightOf="parent"
+          android:textColor="@color/colorDarkGreyButton"
+          android:textColorHint="@color/colorGreyButton"
+          android:textSize="16sp"
+          android:textStyle="bold" />
+
+
+
+
+      <Button
+          android:id="@+id/button_connexion"
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:background="@drawable/rounded_border_button"
+          android:backgroundTint="@color/colorQietPrimary"
+          android:fontFamily="@font/gothambold"
+          android:text="@string/login_me"
+          android:textColor="@color/colorWhite"
+          android:textSize="18sp"
+          android:textAllCaps="false"
+          android:layout_marginTop="15dp"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintRight_toRightOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/checkbox_remember_me"/>
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="10dp"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintRight_toRightOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/button_connexion"/>
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+   <com.rey.material.widget.ProgressView
+       android:id="@+id/circular_progress_connection"
+       android:layout_width="70dp"
+       android:layout_height="70dp"
+       android:visibility="invisible"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:pv_autostart="true"
+       app:pv_circular="true"
+       app:pv_progressMode="indeterminate"
+       app:pv_progressStyle="@style/mCircularProgress" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

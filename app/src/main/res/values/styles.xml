@@ -1,0 +1,346 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorBlueButtonObjectives</item>
+        <item name="colorAccent">@color/colorBlueButtonObjectives</item>
+        <item name="actionMenuTextColor">@color/colorBlueButtonObjectives</item>
+        <item name="actionBarSize">0dp</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:listDivider">@color/colorWhite</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:navigationBarColor">@color/colorWhite</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="DialogStyle" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/colorWhite</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="radioButtonStyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colortransparent</item>
+        <item name="colorControlActivated">@color/colorGreenCard</item>
+        <item name="buttonTint">@color/colorPaleGray</item>
+    </style>
+
+    <style name="AppThemeMyLight" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#0091ea</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppThemeLight" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBlueButtonObjectives</item>
+        <item name="colorPrimaryDark">@color/colorBlueButtonObjectives</item>
+        <item name="actionBarSize">40dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="colorAccent">@color/colorBlueButtonObjectives</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+
+    <style name="menu_drawer_style">
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:textColor">@color/colorBlueButtonObjectives</item>
+        <item name="android:textSize">22sp</item>
+        <item name="dividerPadding">10sp</item>
+        <item name="android:navigationBarColor">@color/colorWhite</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:listDivider">@color/colorWhite</item>
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorBlueButtonObjectives</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/colorBlueButtonObjectives</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/colorBlueButtonObjectives</item>
+    </style>
+
+    <style name="Checkbox" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorGreenCard</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/colorBlueButtonObjectives</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/colorWhite</item>
+    </style>
+
+    <style name="Radio" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorGreenCard</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/colorBlueButtonObjectives</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/colorPaleGray</item>
+    </style>
+
+
+    <style name="mySpinnerItemStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="fontFamily">@fonts/opensanslight</item>
+        <item name="divider">@color/colorBlueButtonObjectives</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:textColor">@color/colorBlueButtonObjectives</item>
+        <item name="android:textColorHint">@color/colorBlueButtonObjectives</item>
+    </style>
+
+
+    <style name="timePickerStyle" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/colorBlueButtonObjectives</item>
+        <item name="title">Mon titre</item>
+        <item name="divider">@color/colorBlueButtonObjectives</item>
+        <item name="android:textColor">@color/colorBlueButtonObjectives</item>
+        <item name="android:windowTitleBackgroundStyle">@color/colorBlueButtonObjectives</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="buttonStyle">@style/Base.Animation.AppCompat.Dialog</item>
+    </style>
+
+
+    <style name="dialogTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/colorWhiteTransparent</item>
+        <item name="title">Mon titre</item>
+        <item name="colorAccent">@color/colorPaleGray</item>
+        <item name="android:windowTitleBackgroundStyle">@color/colorPaleGray</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="buttonStyle">@style/Base.Animation.AppCompat.Dialog</item>
+    </style>
+
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="mCircularProgress">
+        <item name="cpd_padding">0dp</item>
+        <item name="cpd_initialAngle">0</item>
+        <item name="cpd_maxSweepAngle">270</item>
+        <item name="cpd_minSweepAngle">1</item>
+        <item name="cpd_strokeSize">4dp</item>
+        <item name="cpd_strokeColor">@color/colorBlueButtonObjectives</item>
+        <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
+        <item name="cpd_reverse">false</item>
+        <item name="cpd_rotateDuration">700</item>
+        <item name="cpd_transformDuration">600</item>
+        <item name="cpd_keepDuration">200</item>
+        <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="pv_progressMode">buffer</item>
+        <item name="cpd_inAnimDuration">0</item>
+        <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+
+
+    <style name="mCircularProgress2">
+        <item name="cpd_padding">0dp</item>
+        <item name="cpd_initialAngle">0</item>
+        <item name="cpd_maxSweepAngle">270</item>
+        <item name="cpd_minSweepAngle">1</item>
+        <item name="cpd_strokeSize">4dp</item>
+        <item name="cpd_strokeColor">@color/colorWhite</item>
+        <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
+        <item name="cpd_reverse">false</item>
+        <item name="cpd_rotateDuration">700</item>
+        <item name="cpd_transformDuration">600</item>
+        <item name="cpd_keepDuration">200</item>
+        <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="pv_progressMode">buffer</item>
+        <item name="cpd_inAnimDuration">0</item>
+        <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+
+
+    <style name="SwitchTextAppearance" parent="TextAppearance.AppCompat.Widget.Switch">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+
+    <style name="SwitchTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Active thumb color & Active track color(30% transparency) -->
+        <item name="colorControlActivated">@color/colorGreenCard</item>
+        <!-- Inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/colorWhite</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/colorGreenCard</item>
+    </style>
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/colorBlueButtonObjectives</item>
+    </style>
+
+    <style name="mCircularProgressEtiquetteChallengeCard">
+        <item name="cpd_padding">0dp</item>
+        <item name="cpd_initialAngle">0</item>
+        <item name="cpd_maxSweepAngle">270</item>
+        <item name="cpd_minSweepAngle">1</item>
+        <item name="cpd_strokeSize">4dp</item>
+        <item name="cpd_strokeColor">@color/colorPrimary</item>
+        <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
+        <item name="cpd_reverse">false</item>
+        <item name="cpd_rotateDuration">700</item>
+        <item name="cpd_transformDuration">600</item>
+        <item name="cpd_keepDuration">200</item>
+        <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="pv_progressMode">buffer</item>
+        <item name="cpd_inAnimDuration">0</item>
+        <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+
+
+    <style name="mCircularProgressWhite">
+        <item name="cpd_padding">0dp</item>
+        <item name="cpd_initialAngle">0</item>
+        <item name="cpd_maxSweepAngle">270</item>
+        <item name="cpd_minSweepAngle">1</item>
+        <item name="cpd_strokeSize">4dp</item>
+        <item name="cpd_strokeColor">@color/colorWhite</item>
+        <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
+        <item name="cpd_reverse">false</item>
+        <item name="cpd_rotateDuration">700</item>
+        <item name="cpd_transformDuration">600</item>
+        <item name="cpd_keepDuration">200</item>
+        <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="pv_progressMode">buffer</item>
+        <item name="cpd_inAnimDuration">0</item>
+        <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+
+    <style name="mCircularProgressTransparant">
+        <item name="cpd_padding">0dp</item>
+        <item name="cpd_initialAngle">0</item>
+        <item name="cpd_maxSweepAngle">270</item>
+        <item name="cpd_minSweepAngle">1</item>
+        <item name="cpd_strokeSize">4dp</item>
+        <item name="cpd_strokeColor">@color/colorBlueButtonObjectives</item>
+        <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
+        <item name="cpd_reverse">false</item>
+        <item name="cpd_rotateDuration">700</item>
+        <item name="cpd_transformDuration">600</item>
+        <item name="cpd_keepDuration">200</item>
+        <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="pv_progressMode">buffer</item>
+        <item name="cpd_inAnimDuration">0</item>
+        <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+
+    <style name="TextAppearence.App.active" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorBlueButtonObjectives</item>
+    </style>
+
+
+    <style name="NavigationMapRouteCustom">
+        <!-- Colors -->
+        <item name="routeColor">@color/colorQietPrimary</item>
+        <item name="routeModerateCongestionColor">@color/colorYellowCard</item>
+        <item name="routeSevereCongestionColor">@color/colorRedError</item>
+        <item name="routeShieldColor">@color/colorWhite</item>
+        <!-- Scales -->
+        <item name="routeScale">1.0</item>
+    </style>
+
+    <style name="NavigationView" parent="Theme.AppCompat.NoActionBar">
+        <item name="navigationViewPrimary">@color/colorWhite</item>
+        <item name="navigationViewSecondary">@color/colorQietPrimary</item>
+        <item name="navigationViewAccent">@color/colorRedError</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+    <style name="CustomNavigationMapRoute" parent="NavigationMapRoute">
+        <item name="upcomingManeuverArrowBorderColor">@color/colorRedError</item>
+    </style>
+
+    <style name="CustomNavigationView" parent="NavigationViewLight">
+        <item name="navigationViewRouteStyle">@style/CustomNavigationMapRoute</item>
+    </style>
+
+    <style name="CustomInstructionView" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="navigationViewPrimary">@color/mapbox_navigation_view_color_primary</item>
+        <item name="navigationViewSecondary">@color/mapbox_navigation_view_color_secondary</item>
+        <item name="navigationViewAccent">@color/mapbox_navigation_view_color_accent</item>
+        <item name="navigationViewPrimaryText">@color/mapbox_navigation_view_color_secondary</item>
+        <item name="navigationViewSecondaryText">@color/mapbox_navigation_view_color_accent_text</item>
+        <item name="navigationViewDivider">@color/mapbox_navigation_view_color_divider</item>
+
+        <item name="navigationViewListBackground">@color/mapbox_navigation_view_color_list_background</item>
+
+        <item name="navigationViewBannerBackground">@color/mapbox_navigation_view_color_banner_background</item>
+        <item name="navigationViewBannerPrimaryText">@color/mapbox_navigation_view_color_banner_primary_text</item>
+        <item name="navigationViewBannerSecondaryText">@color/mapbox_navigation_view_color_banner_secondary_text</item>
+        <item name="navigationViewBannerManeuverPrimary">@color/mapbox_navigation_view_color_banner_maneuver_primary</item>
+        <item name="navigationViewBannerManeuverSecondary">@color/mapbox_navigation_view_color_banner_maneuver_secondary</item>
+
+        <item name="navigationViewProgress">@color/mapbox_navigation_view_color_progress</item>
+        <item name="navigationViewProgressBackground">@color/mapbox_navigation_view_color_progress_background</item>
+
+        <item name="navigationViewRouteStyle">@style/NavigationMapRoute</item>
+
+        <item name="navigationViewLocationLayerStyle">@style/NavigationLocationLayerStyle</item>
+
+        <item name="navigationViewDestinationMarker">@drawable/map_marker_light</item>
+
+        <item name="navigationViewRouteOverviewDrawable">@drawable/ic_route_preview</item>
+
+        <item name="navigationViewMapStyle">@string/navigation_guidance_day</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeNav" parent="NavigationViewLight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorQietPrimary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorQietPrimary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+
+</resources>

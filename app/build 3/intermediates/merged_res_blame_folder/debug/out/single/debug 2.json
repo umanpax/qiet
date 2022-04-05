@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/drawable-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_gothamlightotf.otf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/gothamlightotf.otf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_opensansextrabolditalic.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/opensansextrabolditalic.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_gothamlight.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/gothamlight.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_gothammediumitalic.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/gothammediumitalic.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_gothambookitalic.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/gothambookitalic.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_gothambolditalic.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/gothambolditalic.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/drawable-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_font.xml.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/font.xml"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_opensansregular.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/opensansregular.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_gothammedium1.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/gothammedium1.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_opensanslight.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/opensanslight.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_opensansbold.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/opensansbold.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_opensansitalic.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/opensansitalic.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_opensanssemibold.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/opensanssemibold.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_opensanslightitalic.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/opensanslightitalic.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_gothambook.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/gothambook.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_opensanssemibolditalic.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/opensanssemibolditalic.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_gothambold.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/gothambold.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_opensansbolditalic.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/opensansbolditalic.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/layout_activity_map_challenge.xml.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/layout/activity_map_challenge.xml"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_gothamlightitalic.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/gothamlightitalic.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_opensansextrabold.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/opensansextrabold.ttf"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/layout_action_bar_refresh.xml.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/layout/action_bar_refresh.xml"
+    },
+    {
+        "merged": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/build/intermediates/merged_res/debug/font_gothammedium.ttf.flat",
+        "source": "/Users/pierre-alexandrevezinet/Documents/AndroidProjects/homelabs/Qiet/qiet/app/src/main/res/font/gothammedium.ttf"
+    }
+]
